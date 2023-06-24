@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Sumoftwonumbers
+ class Sumoftwonumbers
 {
     public static void main(String[] args)
     {
-        Scanner obj = new Scanner(System.in);
-        int a = obj.nextInt();
-        int b = obj.nextInt();
-
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("Enter two numbers.");
         int sum = a + b;
         System.out.println("SUM = "+sum);
     }
